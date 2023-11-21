@@ -1,0 +1,66 @@
+<!-- Eventos (mouse,click, blur, focus)
+     Efectos y animaciones, DOM, modificar textos
+        - callback
+ -->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sesión 2 de JQuery</title>
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/01-selectores.js"></script>
+    </head>
+    <style>
+        .zebra{
+            border: 5px dashed black;
+        }
+        .zebra2{
+            border: 20px dashed black;
+            padding: 20px;
+        }
+        .margenSuperior{
+            display:block;
+            margin-top: 45px;
+        }
+        .resaltado{
+            border-bottom: 2px solid green;
+        }
+    </style>
+    <body>
+        <h1>Sesión 2 - Eventos - JQuery</h1>
+        <p>Ejercicio de JQuery</p>
+        <br><br>
+        <ul>
+            <li><a href="https://www.google.com" title="Google">Ir a Google</a></li>
+            <li><a href="https://www.marca.com" title="Marca">Ir a Marca</a></li>
+            <li><a href="https://www.as.com" title="AS">Ir a AS</a></li>
+        </ul>
+        <br><br>
+        <p id="rojo" class="sin_borde">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Porro, quo? Alias repellat quos culpa nulla iure
+            recusandae facere quo vitae iusto fugit, repudiandae blanditiis
+            officiis perspiciatis ab dignissimos natus non?</p>
+        <p id="amarillo" class="zebra">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Porro, quo? Alias repellat quos culpa nulla iure
+            recusandae facere quo vitae iusto fugit, repudiandae blanditiis
+            officiis perspiciatis ab dignissimos natus non?</p>
+        <p id="verde" class="sin_borde">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Porro, quo? Alias repellat quos culpa nulla iure
+            recusandae facere quo vitae iusto fugit, repudiandae blanditiis
+            officiis perspiciatis ab dignissimos natus non?</p>
+        <p class="zebra">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Porro, quo? Alias repellat quos culpa nulla iure recusandae
+            facere quo vitae iusto fugit, repudiandae blanditiis officiis
+            perspiciatis ab dignissimos natus non?</p>
+        <div id="caja">
+            <p>soy una caja</p>
+            <ul>
+                <li>Elemento1</li>
+                <li>Elemento2</li>
+                <li class="resaltado">Elemento3</li>
+            </ul>
+            <span class="resaltado">soy un span</span>
+        </div>
+    </body>
+</html>
